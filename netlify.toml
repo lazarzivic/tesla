@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://tesla-cybertruck.netlify.com/about-old.html"
+  to = "https://tesla-cybertruck.netlify.com/about.html"
+  status = 301
+  force = true
