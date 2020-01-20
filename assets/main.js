@@ -26,3 +26,39 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+
+/* Tabs */
+
+// Show the first tab by default
+$(".tabs-stage div").hide();
+$(".tabs-stage div:first").show();
+$(".tabs-nav li:first").addClass("tab-active");
+
+// Change tab class and display content
+$(".tabs-nav a").on("click", function(event) {
+  event.preventDefault();
+  $(".tabs-nav li").removeClass("tab-active");
+  $(this)
+    .parent()
+    .addClass("tab-active");
+  $(".tabs-stage div").hide();
+  $($(this).attr("href")).show();
+});
+
+/* Slick testamonials */
+
+$(".single-item").slick({
+  infinite: true,
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  speed: 1000,
+  cssEase: "ease-in-out"
+});
+
+$(".quote-container").mousedown(function() {
+  $(".single-item").addClass("dragging");
+});
+$(".quote-container").mouseup(function() {
+  $(".single-item").removeClass("dragging");
+});
