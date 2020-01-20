@@ -425,9 +425,8 @@ footer {
 /* About */
 
 .tabs {
-  padding-top: 3em;
-  max-width: 538px;
-  margin: 0 auto;
+  padding-top: 6em;
+  width: 40%;
 }
 .tabs-nav li {
   float: left;
@@ -545,7 +544,6 @@ footer {
 .quote-container .portrait img {
   display: block;
   height: auto;
-  width: 100%;
 }
 .quote-container .quote {
   position: relative;
@@ -588,4 +586,12 @@ footer {
 .dragging .quote-container {
   cursor: -webkit-grabbing;
   cursor: grabbing;
+}
+
+.tabs-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
 }
