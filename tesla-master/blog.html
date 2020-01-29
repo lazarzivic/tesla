@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blog - Tesla Cybertruck</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="wrapper">
+          <span
+            ><a class="logo" href="index.html"
+              ><img
+                src="./images/download.svg"
+                alt=""
+                height="17"
+                width="100"/></a
+          ></span>
+          <ul class="menu">
+            <li><a class="menu-link" href="index.html">Home</a></li>
+            <li><a class="menu-link" href="about.html">About</a></li>
+            <li><a class="menu-link" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="toggle">
+          <div class="span span-one"></div>
+          <div class="span span-two"></div>
+          <div class="span span-three"></div>
+        </div>
+      </nav>
+      <div class="mobile">
+        <ul class="menu">
+          <li><a class="menu-link" href="#">Home</a></li>
+          <li><a class="menu-link" href="#Exoskeleton">Exoskeleton</a></li>
+          <li>
+            <a class="menu-link" href="#Versatile-Utility">Versatile Utility</a>
+          </li>
+          <li><a class="menu-link" href="#Order">Order</a></li>
+        </ul>
+      </div>
+    </header>
+    <!---blog----->
+    <section class="info">
+      <div id="Versatile-Utility" class="center">
+        <h1>BLOG</h1>
+        <h2>Tesla Cybertruck</h2>
+      </div>
+    </section>
+    <section class="cards-wrapper">
+      <div class="card-grid-space">
+        <div class="num">01</div>
+        <a
+          class="card"
+          href="./blog/tesla-battery.html"
+          style="--bg-img: url(../images/blog/tesla-battery.jpg)"
+        >
+          <div>
+            <h1>Tesla Battery</h1>
+            <p>
+              The Powerwall and Powerpack are rechargeable lithium-ion battery
+              stationary energy storage products manufactured by Tesla, Inc.
+            </p>
+            <div class="date">6 Jan 2020</div>
+            <div class="tags">
+              <div class="tag">Power</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-grid-space">
+        <div class="num">02</div>
+        <a
+          class="card"
+          href="./blog/auto-pilot.html"
+          style="--bg-img: url(../images/blog/tesla_AP_screen.jpg)"
+        >
+          <div>
+            <h1> Navigate on Autopilot </h1>
+            <p>All vehicles will also come with Tesla Autopilot,
+             and will have the hardware capabilities for fully autonomous operation.</p>
+            <div class="date">30 Dec 2019</div>
+            <div class="tags">
+              <div class="tag">Autopilot</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-grid-space">
+        <div class="num">03</div>
+        <a
+          class="card"
+          href="./blog/tesla-glass.html"
+          style="--bg-img: url(../images/blog/Tesla-glass-cover.jpg)"
+        >
+          <div>
+            <h1> Tesla - Armor Glass </h1>
+            <p>We teamed up with Tesla to showcase their cutting-edge Armor Glass in action.
+Using Phantom Cameras, we filmed how the incredible material can protect drivers in the new Tesla Semi.</p>
+            <div class="date">14 Nov 2019</div>
+            <div class="tags">
+              <div class="tag">Protection</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <p>Powered by LZ©</p>
+    </footer>
+  </body>
+  <script src="./assets/main.js"></script>
+</html>
