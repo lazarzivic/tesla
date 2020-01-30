@@ -202,8 +202,14 @@ h1 {
 
 @media only screen and (max-width: 480px) {
   .hero {
-    background-size: contain;
+    background-size: cover;
     height: 30vh;
+  }
+  .slick-next {
+    right: -10px;
+  }
+  .slick-prev {
+    left: -10px;
   }
 }
 
