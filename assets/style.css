@@ -206,10 +206,10 @@ h1 {
     height: 30vh;
   }
   .slick-next {
-    right: -10px;
+    right: -10px !important;
   }
   .slick-prev {
-    left: -10px;
+    left: -10px !important;
   }
 }
 
@@ -434,6 +434,13 @@ footer {
   padding-top: 6em;
   width: 40%;
 }
+
+@media screen and (max-width: 450px) {
+  .tabs {
+    max-width: 90%;
+  }
+}
+
 .tabs-nav li {
   float: left;
   width: 33.3333333%;
@@ -600,6 +607,13 @@ footer {
   align-items: center;
   max-width: 70%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+  .tabs-image {
+    max-width: 90%;
+    flex-direction: column;
+  }
 }
 
 /* Blog */
